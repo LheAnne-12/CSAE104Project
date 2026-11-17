@@ -1,0 +1,109 @@
+.card{
+    padding:1rem;
+}
+
+p,h3{
+    color:blue;
+}
+h2{
+    color:black;
+}
+nav a{
+    color:pink;
+}
+body{
+    background-color:powderblue;
+    font-family: Arial, sans-serif;
+    border:5px solid;
+    margin:50px;
+    border-radius: 12px;
+}
+.bg1{
+    background-color: pink;
+}
+a:hover{
+    text-decoration:colorline;
+    font-size:25px;
+}
+.btn{
+  background-color: grey;
+  border: 100;
+  color: black;
+  padding: 5px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 90px;
+  border-radius: 70px;
+
+}
+.faculty-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.faculty-header h4 {
+    margin: 0;
+}
+.container {
+  display: grid;
+  grid-template-areas:
+    "header header header"
+    "menu content content1"
+    "footer footer footer";
+  grid-template-columns: 1fr 3fr 1fr;
+  gap: 3px;
+  background-color: dodgerblue;
+  padding: 10px;
+  border-radius: 8px
+}
+.container div {
+  background-color: white;
+  padding: 10px;
+}
+.container div.header {
+  grid-area: header;
+  text-align: center;
+}
+.container div.menu {
+  grid-area: menu;
+}
+.container div.content {
+  grid-area: content;
+}
+.container div.content1{
+grid-area: content1;
+}
+.container div.footer {
+  grid-area: footer;
+  text-align: center;  
+  color: black;
+}
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2px;
+}
+.form-group label {
+    margin-bottom: 2px;
+}
+
+.content1 input {
+    width: 95%; 
+    padding: 2px;
+}
+
+.btn-group {
+    text-align: center;
+}
+.header {
+    display: flex;
+    align-items: center;  /* vertically centers the logo with the text */
+    gap: 12px;            /* space between logo and name */
+}
+
+.header h2 {
+    margin: 0;
+}
